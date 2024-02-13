@@ -1,2 +1,2 @@
 #!/bin/bash
-create_empty_file hello
+create_empty_file

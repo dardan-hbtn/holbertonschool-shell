@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr ":" "\n" | wc -l
+echo 'export PATH=/bin::::/home:/usr:::::/home/me' | tr ":" "\n" | tr ":" "" | wc -l

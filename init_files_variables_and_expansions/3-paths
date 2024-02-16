@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'hello MyUser'
+echo $PATH | cut -d '/' -f 2- --output-delimiter $'\n' | wc -l
